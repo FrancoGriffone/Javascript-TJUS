@@ -1,0 +1,56 @@
+/*index-config*/
+
+.chat {
+    display:block;
+    background-color: rgb(122, 25, 212);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: all 0.8s ease-in-out;
+    &:hover {
+        background-color: #ffae00;
+        color: black;
+    }
+}
+.slogan {
+    font-family: 'Secular One', sans-serif;
+}
+.objetivo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 0% 7.5% 5% 10%;
+    transition: all 0.8s ease-in-out;
+    &:hover {
+        scale: (1.1);
+    }
+}
+.objetivo-div {
+    margin-left: 6%;
+}
+.sintesis {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    margin: 5% 5% 5% 12%;
+}
+.section-index-one {
+    background-color: rgb(248, 239, 226);
+}
+.section-index-two {
+    background-color: rgb(248, 239, 226);
+}
+.section-index-three {
+    background-color: rgb(160, 189, 243);
+}
+.section-index-four {
+    background-color: rgba(224, 220, 220, 0.822);
+}
+.section-index-five {
+    background-color: rgb(160, 189, 243);
+}
+.section-index-six {
+    background-color:rgb(248, 239, 226);
+}

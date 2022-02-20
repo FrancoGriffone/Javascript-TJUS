@@ -1,0 +1,199 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+
+/*font-family: 'Secular One', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@media screen and (max-width: 576px) {
+    .slogan {
+        font-size: 200%;
+        margin: 10% 2% 5% 5%;
+    }
+    .titulo-noticia {
+        font-size: 150%;
+    }
+    .carousel-inner {
+        overflow: visible;
+    }
+}
+@media screen and (max-width: 768px) {
+    .interes {
+        font-family: 'Secular One', sans-serif;
+        font-size: 150%;
+    }
+    .div-interes {
+        display: flex;
+        justify-content: space-between;
+        margin:5% 5% 5% 5%;
+    }
+    .interes-icon {
+        margin-right: 10%;
+    }
+    .mini-noticia {
+        margin-bottom: 5%;
+    }
+}
+@media screen and (max-width: 992px) {
+    .iniciar-chat {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3%;
+    }
+    .interes-icon {
+        width: 7%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (min-width: 576px) {
+    .slogan {
+    font-size: 300%;
+    margin: 10% 5% 5% 5%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .titulo-noticia {
+        font-size: 300%;
+    }
+    .interes {
+        font-family: 'Secular One', sans-serif;
+        font-size: 200%;
+    }
+    .div-interes {
+        display: flex;
+        justify-content: space-between;
+        margin:5%;
+    }
+    .interes-icon {
+        margin-right: 10%;
+    }
+    .mini-noticia {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .iniciar-chat {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .interes-icon {
+        width: 5%;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+}
+
+
+
+/*all-sections*/
+.fixed-contenedor {
+    text-align: end;
+}
+.image-login {
+    position: fixed;
+    z-index: 5;
+    bottom: 50px;
+    right: 20px;
+    width:70px;
+}
+.container-fluid {
+    padding-left: 7%;
+    padding-right: 10%;
+}
+
+ul , li{
+    list-style: none;
+}
+
+/*biblioteca-config*/
+
+#section-biblioteca {
+    padding: 5%;
+}
+.biblioteca {
+    border-radius: 12px;
+    border: 4px solid rgba(250, 210, 110, 0.993);
+}
+.biblioteca-imagenes {
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.8s ease-in-out;
+    margin: 2%;
+    
+}
+.biblioteca-icon {
+    transition: all 0.8s ease-in-out;
+    &:hover {
+        transform:scale(1.5);
+    }
+}
+.biblioteca-descripciones {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.biblioteca-link {
+    display: flex;
+    justify-content: center;
+}
+.biblioteca-small {
+    display: flex;
+    flex-direction: column;
+}
+.biblioteca-small-item {
+    display: flex;
+    align-items: center;
+}
+
+/*carousel*/
+
+.carousel-t-jus-flex {
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.carousel-div {
+    padding-left: 3%;
+}
+.mini-noticia {
+    font-family: 'Secular One', sans-serif;
+    font-size: 150%;
+}
+
+/*header-elements*/
+
+@import "../scss/pages/header";
+
+/*footer-config*/
+
+@import "../scss/pages/footer";
+
+/*index-config*/
+
+@import "../scss/pages/index";
+
+/*usuario-config*/
+
+@import "../scss/pages/usuario";
+
+/*encuesta-config*/
+
+@import "../scss/pages/encuesta";
+
+/*noticias-config*/
+
+@import "../scss/pages/noticias";
+
+/*login-import*/
+
+@import "../scss/pages/login"

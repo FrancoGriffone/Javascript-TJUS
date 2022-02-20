@@ -1,0 +1,668 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Secular One', sans-serif;*/
+@media screen and (max-width: 576px) {
+  .slogan {
+    font-size: 200%;
+    margin: 10% 2% 5% 5%;
+  }
+
+  .titulo-noticia {
+    font-size: 150%;
+  }
+
+  .carousel-inner {
+    overflow: visible;
+  }
+}
+@media screen and (max-width: 768px) {
+  .interes {
+    font-family: "Secular One", sans-serif;
+    font-size: 150%;
+  }
+
+  .div-interes {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 5% 5%;
+  }
+
+  .interes-icon {
+    margin-right: 10%;
+  }
+
+  .mini-noticia {
+    margin-bottom: 5%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .iniciar-chat {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+  }
+
+  .interes-icon {
+    width: 7%;
+  }
+}
+@media screen and (min-width: 576px) {
+  .slogan {
+    font-size: 300%;
+    margin: 10% 5% 5% 5%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .titulo-noticia {
+    font-size: 300%;
+  }
+
+  .interes {
+    font-family: "Secular One", sans-serif;
+    font-size: 200%;
+  }
+
+  .div-interes {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+  }
+
+  .interes-icon {
+    margin-right: 10%;
+  }
+
+  .mini-noticia {
+    margin-bottom: 10%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .iniciar-chat {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .interes-icon {
+    width: 5%;
+  }
+}
+/*all-sections*/
+.fixed-contenedor {
+  text-align: end;
+}
+
+.image-login {
+  position: fixed;
+  z-index: 5;
+  bottom: 50px;
+  right: 20px;
+  width: 70px;
+}
+
+.container-fluid {
+  padding-left: 7%;
+  padding-right: 10%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+/*biblioteca-config*/
+#section-biblioteca {
+  padding: 5%;
+}
+
+.biblioteca {
+  border-radius: 12px;
+  border: 4px solid rgba(250, 210, 110, 0.993);
+}
+
+.biblioteca-imagenes {
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.8s ease-in-out;
+  margin: 2%;
+}
+
+.biblioteca-icon {
+  transition: all 0.8s ease-in-out;
+}
+.biblioteca-icon:hover {
+  transform: scale(1.5);
+}
+
+.biblioteca-descripciones {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.biblioteca-link {
+  display: flex;
+  justify-content: center;
+}
+
+.biblioteca-small {
+  display: flex;
+  flex-direction: column;
+}
+
+.biblioteca-small-item {
+  display: flex;
+  align-items: center;
+}
+
+/*carousel*/
+.carousel-t-jus-flex {
+  margin-bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.carousel-div {
+  padding-left: 3%;
+}
+
+.mini-noticia {
+  font-family: "Secular One", sans-serif;
+  font-size: 150%;
+}
+
+/*header-elements*/
+/*header-elements*/
+.t-jus-header {
+  background-color: #86cad3;
+  border-bottom: 2px rgba(0, 0, 0, 0.253) solid;
+}
+
+.t-jus, .perfil-usuario, .noticias, .biblioteca-header {
+  font-family: "Roboto", sans-serif;
+}
+
+.accordion-button-header {
+  background-color: rgba(212, 168, 25, 0.418);
+}
+
+.accordion-body-header {
+  background-color: #d0f0de;
+}
+
+/*footer-config*/
+/*footer-config*/
+.accordion-button-footer, .footer-t-jus {
+  background-color: #86cad3;
+}
+
+.accordion-body-footer {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.footer-t-jus {
+  justify-items: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.233);
+}
+
+.dudas {
+  color: blanchedalmond;
+  text-decoration: underline;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+  padding-top: 15%;
+}
+
+.nosotros-div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 7%;
+  border-right: 2px solid whitesmoke;
+}
+
+.nosotros {
+  color: blanchedalmond;
+}
+
+.reclamo-div {
+  margin-top: 5%;
+  padding-top: 5%;
+  margin-bottom: 5%;
+  border-left: 2px solid whitesmoke;
+  padding-right: 2%;
+}
+
+.reclamo {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
+.dudas-1 > li, .dudas-2 > li {
+  display: inline-block;
+}
+
+.dudas-1 li, .dudas-2 li, .dudas-1 li ul li, .dudas-2 li ul li {
+  background-color: #7a19d4;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  display: block;
+  transition: all 0.8s ease-in-out;
+}
+
+.dudas-1 li:hover, .dudas-2 li:hover, .dudas-1 li ul li:hover, .dudas-2 li ul li:hover {
+  background-color: #1f1f20;
+}
+
+.dudas-1 li:hover > ul, .dudas-2 li:hover > ul {
+  display: block;
+}
+
+.dudas-1 li ul, .dudas-2 li ul {
+  display: none;
+  position: absolute;
+}
+
+.dudas-1 li ul li {
+  position: relative;
+  min-width: 350px;
+}
+
+.dudas-1 li ul li ul li {
+  position: relative;
+  min-width: 375px;
+  right: -375px;
+}
+
+.dudas-2 li ul li {
+  position: relative;
+  min-width: 400px;
+}
+
+.redes, .copyright, .redes-small, .copyright-small {
+  margin: 2% 0% 2% 0%;
+}
+
+.contacto-small {
+  display: flex;
+}
+
+.redes-small {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/*index-config*/
+/*index-config*/
+.chat {
+  display: block;
+  background-color: #7a19d4;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  transition: all 0.8s ease-in-out;
+}
+.chat:hover {
+  background-color: #ffae00;
+  color: black;
+}
+
+.slogan {
+  font-family: "Secular One", sans-serif;
+}
+
+.objetivo {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 0% 7.5% 5% 10%;
+  transition: all 0.8s ease-in-out;
+}
+.objetivo:hover {
+  scale: 1.1;
+}
+
+.objetivo-div {
+  margin-left: 6%;
+}
+
+.sintesis {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  margin: 5% 5% 5% 12%;
+}
+
+.section-index-one {
+  background-color: #f8efe2;
+}
+
+.section-index-two {
+  background-color: #f8efe2;
+}
+
+.section-index-three {
+  background-color: #a0bdf3;
+}
+
+.section-index-four {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-index-five {
+  background-color: #a0bdf3;
+}
+
+.section-index-six {
+  background-color: #f8efe2;
+}
+
+/*usuario-config*/
+/*usuario-config*/
+.usuario-perfil, .datos-usuario, .button-consulta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-usuario {
+  margin: 5%;
+}
+
+.cambiar-datos-usuario {
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.nombre-usuario {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.comentarios-usuarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+
+.button-consulta {
+  margin-top: 5%;
+}
+
+.enviar-consulta {
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: #7a19d4;
+  color: white;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.enviar-consulta:hover {
+  background-color: #ffae00;
+  color: black;
+}
+
+.section-usuario-one {
+  background-color: #f8efe2;
+}
+
+.section-usuario-two {
+  background-color: #a0bdf3;
+}
+
+.section-usuario-three {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-usuario-four {
+  background-color: #a0bdf3;
+}
+
+.section-usuario-five {
+  background-color: #f8efe2;
+}
+
+/*encuesta-config*/
+/*encuesta-config*/
+.relleno-encuesta {
+  margin: 0% 5% 5% 3%;
+}
+
+.enviar-consulta-div, .alerta-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enviar-consulta-div {
+  margin-top: 5%;
+}
+
+.slogan-encuesta {
+  font-family: "Secular One", sans-serif;
+  font-size: 150%;
+  align-self: center;
+  margin: 5%;
+}
+
+.encuesta-descripcion {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  text-align: justify;
+  border: 4px solid rgba(250, 210, 110, 0.993);
+  border-radius: 12px;
+  padding: 5%;
+}
+
+.errorMsg {
+  color: red;
+}
+
+.enviar-consulta {
+  display: block;
+  background-color: #7a19d4;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.8s ease-in-out;
+}
+.enviar-consulta:hover {
+  background-color: #ffae00;
+  color: black;
+}
+
+.button-encuesta {
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+
+.alerta {
+  font-family: "Secular One", sans-serif;
+  font-size: 200%;
+}
+
+.alerta-div {
+  margin: 5%;
+}
+
+.section-encuesta-one {
+  background-color: #f8efe2;
+}
+
+.section-encuesta-two {
+  background-color: #a0bdf3;
+}
+
+.section-encuesta-three {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-encuesta-four {
+  background-color: #a0bdf3;
+}
+
+.section-encuesta-five {
+  background-color: #f8efe2;
+}
+
+/*noticias-config*/
+/*noticias-config*/
+.slogan-noticia {
+  font-family: "Secular One", sans-serif;
+  font-size: 90%;
+}
+
+.noticia-pic {
+  margin: 5% 5% 3% 5%;
+}
+
+.pie-imagen {
+  margin-top: 3%;
+  font-family: "Secular One", sans-serif;
+  font-size: 110%;
+}
+
+.desarrollo {
+  margin: 5%;
+  font-family: "Roboto", sans-serif;
+  font-size: 150%;
+}
+
+.titulo-noticia {
+  margin-bottom: 5%;
+  font-family: "Secular One", sans-serif;
+}
+
+.link-noticia {
+  text-decoration: underline;
+  color: grey;
+}
+
+.link-pagina {
+  margin-top: 2%;
+}
+
+.section-noticia-one {
+  background-color: #f8efe2;
+}
+
+.section-noticia-two {
+  background-color: #a0bdf3;
+}
+
+.section-noticia-three {
+  background-color: rgba(224, 220, 220, 0.822);
+}
+
+.section-noticia-four {
+  background-color: #a0bdf3;
+}
+
+.section-noticia-five {
+  background-color: #f8efe2;
+}
+
+/*login-import*/
+.login {
+  background: url(https://i.ibb.co/sgHWrGb/Library-interior-empty-room-for-reading-with-books-on-wooden-shelves-ladder-glass-window-on-roof-wit.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pantalla-login {
+  width: 100%;
+  padding: 15px;
+}
+
+.login-index {
+  text-decoration: none;
+}
+
+.formulario {
+  background: white;
+  padding: 3px;
+}
+
+.slogan-login {
+  text-align: center;
+  color: #27487e;
+  font-size: 150%;
+  margin-top: 3%;
+}
+
+.contenedor {
+  margin-bottom: 15px;
+  border: 1px solid white;
+}
+.contenedor .espacio-login {
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+
+.login-button {
+  border: none;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background: #27487e;
+  padding: 15px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-button:hover {
+  background-color: #ffae00;
+  color: black;
+}
+
+.login-parrafo {
+  text-align: center;
+}
+
+.link-registro {
+  text-decoration: none;
+  color: #27487e;
+  font-weight: 600;
+}
+.link-registro:hover {
+  color: #ffae00;
+}
+
+@media screen and (max-width: 768px) {
+  .slogan-login {
+    font-size: 150%;
+  }
+
+  .formulario {
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .formulario {
+    margin: auto;
+    width: 500px;
+    border-radius: 30px;
+    margin-top: 150px;
+  }
+
+  .slogan-login {
+    font-size: 200%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
